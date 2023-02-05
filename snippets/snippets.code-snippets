@@ -1,0 +1,76 @@
+{
+	"Basic HTML Table": {
+		"prefix": "htmltable",
+		"body": [
+			"<table>",
+			"  <tr>",
+			"    <th>Header 1</th>",
+			"    <th>Header 2</th>",
+			"    <th>Header 3</th>",
+			"  </tr>",
+			"  <tr>",
+			"    <td>Row 1, Column 1</td>",
+			"    <td>Row 1, Column 2</td>",
+			"    <td>Row 1, Column 3</td>",
+			"  </tr>",
+			"  <tr>",
+			"    <td>Row 2, Column 1</td>",
+			"    <td>Row 2, Column 2</td>",
+			"    <td>Row 2, Column 3</td>",
+			"  </tr>",
+			"</table>"
+		],
+		"description": "Basic HTML Table"
+	},
+	"Simple HTML Page structure": {
+		"prefix": "htmlpage",
+		"body": [
+			"<!DOCTYPE html>",
+			"<html>",
+			"  <head>",
+			"    <meta charset=\"utf-8\">",
+			"    <title>$1</title>",
+			"  </head>",
+			"  <body>",
+			"    $2",
+			"  </body>",
+			"</html>"
+		],
+		"description": "Simple HTML Page structure"
+	},
+	"User Information Fieldset with Legend": {
+		"prefix": "UserInfoFieldset",
+		"body": [
+			"<fieldset>",
+			"  <legend>User Information</legend>",
+			"    <label for='name'>Name:</label>",
+			"      <input type='text' id='name' name='name'><br><br>",
+			"    <label for='email'>Email:</label>",
+			"      <input type='email' id='email' name='email'><br><br>",
+			"    <label for='password'>Password:</label>",
+			"      <input type='password' id='password' name='password'>",
+			"</fieldset>"
+		],
+		"description": "User Information Fieldset with Legend"
+	},
+	"Restrict Image Type Uploads": {
+		"prefix": "restrictUploads",
+		"body": [
+			"<input type='file' name='my_image' accept='image/gif,image/jpeg,image/jpg,image/png'>"
+		],
+		"description": "Restrict uploads to gifs, jpegs, and pngs."
+	},
+	"Add Autocomplete Without Javascript": {
+		"prefix": "autocompleteNoJS",
+		"body": [
+			"<input name='frameworks', list='list-name' />",
+			"<datalist id='frameworks'>",
+			"  <option value='option 1'></option>",
+			"  <option value='option 2'></option>",
+			"  <option value='option 3'></option>",
+			"  <option value='option 4'></option>",
+			"</datalist>"
+		],
+		"description": "Add autocomplete without javascript."
+	}
+}
