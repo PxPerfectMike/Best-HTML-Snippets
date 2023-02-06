@@ -3,19 +3,20 @@
 		"prefix": "htmlpage",
 		"body": [
 			"<!DOCTYPE html>",
-			"<html lang='en'>",
+			"<html lang='${1|en,en-us,en-GB,fr|}'>",
 			"  <head>",
 			"    <meta charset='UTF-8'>",
 			"    <meta name='viewport' content='width=device-width, initial-scale=1.0'>",
 			"    <meta http-equiv='X-UA-Compatible' content='ie=edge'>",
-			"    <title>HTML 5 Boilerplate</title>",
+			"    <title>$2</title>",
 			"    <link rel='stylesheet' href='style.css'>",
 			"  </head>",
 			"  <body>",
 			"  </body>",
-			"</html>"
+			"</html>$0"
 		],
-		"description": "Simple HTML Page structure"
+		"description": "Simple HTML Page structure",
+		"isFileTemplate": true
 	},
 	"Basic HTML Table": {
 		"prefix": "htmltable",
@@ -58,20 +59,20 @@
 	"Restrict Image Type Uploads": {
 		"prefix": "restrictUploads",
 		"body": [
-			"<input type='file' name='my_image' accept='image/gif,image/jpeg,image/jpg,image/png'>"
+			"<input type='file' name='$1' accept='image/gif,image/jpeg,image/jpg,image/png'>"
 		],
 		"description": "Restrict uploads to gifs, jpegs, and pngs."
 	},
 	"Add Autocomplete Without Javascript": {
 		"prefix": "autocompleteNoJS",
 		"body": [
-			"<input name='frameworks', list='list-name' />",
-			"<datalist id='frameworks'>",
-			"  <option value='option 1'></option>",
-			"  <option value='option 2'></option>",
-			"  <option value='option 3'></option>",
-			"  <option value='option 4'></option>",
-			"</datalist>"
+			"<input name='$1', list='$2' />",
+			"<datalist id='$3'>",
+			"  <option value='option 1'>$4</option>",
+			"  <option value='option 2'>$5</option>",
+			"  <option value='option 3'>$6</option>",
+			"  <option value='option 4'>$7</option>",
+			"</datalist>$0"
 		],
 		"description": "Add autocomplete without javascript."
 	},
@@ -94,7 +95,7 @@
 		],
 		"description": "Add Google Places search to a form."
 	},
-	"Turn off autocomplete in an input": {
+	"Input with autocomplete off": {
 		"prefix": "autocompleteOff",
 		"body": ["<input name='query' type='text' autocomplete='off' />"],
 		"description": "Turn off autocomplete in an input."
@@ -106,7 +107,7 @@
 			"  <input type='submit' value='Submit' />",
 			"</form>"
 		],
-		"description": "Post a form to a new window/tab."
+		"description": "Post a form to a new window or tab."
 	},
 	"Google Search Form": {
 		"prefix": "googleSearch",
@@ -209,5 +210,40 @@
 			"<script>window.jQuery || document.write('<script src='js/jquery.min.js'></script>')</script>"
 		],
 		"description": "Javascript fallback"
+	},
+	"Define the apple touch icon": {
+		"prefix": "appleTouchIcon",
+		"body": ["<link rel='apple-touch-icon' href='apple-touch-icon.png'>"],
+		"description": "Define the apple touch icon"
+	},
+	"lorem ipsum": {
+		"prefix": "lorem",
+		"body": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod, nunc sit amet aliquet lacinia, nisi nisl aliquet nisl, eget aliquet nisl nunc eget lorem. Sed euismod, nunc sit amet aliquet lacinia, nisi nisl aliquet nisl, eget aliquet nisl nunc eget lorem. Sed euismod, nunc sit amet aliquet lacinia, nisi nisl aliquet nisl, eget aliquet nisl nunc eget lorem. Sed euismod, nunc sit amet aliquet lacinia, nisi nisl aliquet nisl, eget aliquet nisl nunc eget lorem. Sed euismod, nunc sit amet aliquet lacinia, nisi nisl aliquet nisl, eget aliquet nisl nunc eget lorem. Sed euismod, nunc sit amet aliquet lacinia, nisi nisl aliquet nisl, eget aliquet nisl nunc eget lorem. Sed euismod, nunc sit amet aliquet lacinia, nisi nisl aliquet nisl, eget aliquet nisl nunc eget lorem. Sed euismod, nunc sit amet aliquet lacinia, nisi nisl aliquet nisl, eget aliquet nisl nunc eget lorem. Sed euismod, nunc sit amet aliquet lacinia, nisi nisl aliquet nisl, eget aliquet nisl nunc eget lorem. Sed euismod, nunc sit amet aliquet lacinia, nisi nisl aliquet nisl, eget aliquet nisl nunc eget lorem. Sed euismod, nunc sit amet aliquet lacinia, nisi nisl aliquet nisl, eget aliquet nisl nunc eget lorem. Sed euismod, nunc sit amet aliquet lacinia, nisi nisl aliquet nisl, eget aliquet nisl nunc eget lorem. Sed euismod, nunc sit amet aliquet lacinia, nisi nisl aliquet nisl, eget aliquet nisl nunc eget lorem. Sed euismod, nunc sit amet aliquet lacinia, nisi nisl aliquet nisl, eget aliquet nisl nunc eget lorem. Sed euismod, nunc sit amet aliquet lacinia, nisi nisl aliquet nisl, eget aliquet",
+		"description": "lorem ipsum"
+	},
+	"Preserve the formatting of code": {
+		"prefix": "code",
+		"body": ["<code>$1</code>"],
+		"description": "Preserve the formatting of code"
+	},
+	"Add a comment": {
+		"prefix": "comment",
+		"body": ["<!-- $1 -->"],
+		"description": "Add a comment"
+	},
+	"Add a link to a stylesheet": {
+		"prefix": "linkstyle",
+		"body": ["<link rel='stylesheet' href='$1'>"],
+		"description": "Add a link to a stylesheet"
+	},
+	"embed video in page": {
+		"prefix": "video",
+		"body": [
+			"<video poster='images/preview.png' width='800' height='600' controls='controls' preload='none'>",
+			"  <source src='media/my_video.mp4' type='video/mp4'></source>",
+			"</video>"
+		],
+		"description": "embed video in page"
+	},
 	}
 }
