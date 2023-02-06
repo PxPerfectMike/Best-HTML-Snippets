@@ -165,5 +165,49 @@
 		"prefix": "deferJS",
 		"body": ["<script src='script.js' defer></script>"],
 		"description": "Load JavaScript deferred"
+	},
+	"Add a favicon": {
+		"prefix": "addFavicon",
+		"body": [
+			"<link rel='shortcut icon' href='favicon.ico' type='image/x-icon'>",
+			"<link rel='icon' href='favicon.ico' type='image/x-icon'>"
+		],
+		"description": "Add a favicon"
+	},
+	"Make Page Responsive": {
+		"prefix": "responsive",
+		"body": [
+			"<meta name='viewport' content='width=device-width, initial-scale=1.0'>"
+		],
+		"description": "Make page responsive"
+	},
+	"Redirect a page to another": {
+		"prefix": "redirect",
+		"body": [
+			"<meta http-equiv='refresh' content='5;url=https://www.google.com/' />"
+		],
+		"description": "Redirect a page to another"
+	},
+	"Javascript fallback for noscript": {
+		"prefix": "noscript",
+		"body": [
+			"<noscript>",
+			"  <style>",
+			"    .no-js { display: none; }",
+			"  </style>",
+			"  <div class='no-js'>",
+			"    <p>JavaScript is not enabled!</p>",
+			"  </div>",
+			"</noscript>"
+		],
+		"description": "Javascript fallback for noscript"
+	},
+	"Javascript fallback": {
+		"prefix": "jsFallback",
+		"body": [
+			"<script src='//code.jquery.com/jquery.min.js'></script>",
+			"<script>window.jQuery || document.write('<script src='js/jquery.min.js'></script>')</script>"
+		],
+		"description": "Javascript fallback"
 	}
 }
