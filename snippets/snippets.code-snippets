@@ -244,5 +244,176 @@
 			"</video>"
 		],
 		"description": "embed video in page"
+	},
+	"Login Form": {
+		"prefix": "loginform",
+		"body": [
+			"<form role='form'>",
+			"  <div class='form-group'>",
+			"    <label for='email'>Email address:</label>",
+			"    <input type='email' class='form-control' id='email'>",
+			"  </div>",
+			"<div class='form-group'>",
+			"  <label for='pwd'>Password:</label>",
+			"    <input type='password' class='form-control' id='pwd'>",
+			"</div>",
+			"<div class='checkbox'>",
+			"  <label><input type='checkbox'> Remember me</label>",
+			"</div>",
+			"  <button type='submit' class='btn btn-default'>Submit</button>",
+			"</form>"
+		],
+		"description": "Login Form"
+	},
+	"Downloadable file": {
+		"prefix": "download",
+		"body": [
+			"<a href='download/file.zip' download='file.zip'>",
+			"  <img src='images/download.png' alt='Download file'>",
+			"</a>"
+		],
+		"description": "Downloadable file"
+	},
+	"highlighted text": {
+		"prefix": "highlight",
+		"body": ["<mark>$1</mark>"],
+		"description": "highlighted text"
+	},
+	"Ordered List": {
+		"prefix": "orderedlist",
+		"body": [
+			"<ol>",
+			"  <li>Item 1</li>",
+			"  <li>Item 2</li>",
+			"  <li>Item 3</li>",
+			"</ol>"
+		],
+		"description": "HTML Ordered List"
+	},
+	"Unordered List": {
+		"prefix": "unorderedlist",
+		"body": [
+			"<ul>",
+			"  <li>Item 1</li>",
+			"  <li>Item 2</li>",
+			"  <li>Item 3</li>",
+			"</ul>"
+		],
+		"description": "HTML Unordered List"
+	},
+	"Image with Alt Text": {
+		"prefix": "imgwithalt",
+		"body": ["<img src='image.jpg' alt='Image description'>"],
+		"description": "HTML Image with Alt Text"
+	},
+	"Anchor Link (Same Page)": {
+		"prefix": "a-same",
+		"body": [
+			"<a href='#section1'>Jump to Section 1</a>",
+			"",
+			"<h2 id='section1'>Section 1</h2>"
+		],
+		"description": "HTML Anchor Link (Same Page)"
+	},
+	"Abbreviation with Title": {
+		"prefix": "abbr",
+		"body": ["<abbr title='Hypertext Markup Language'>HTML</abbr>"],
+		"description": "HTML Abbreviation with Title Attribute"
+	},
+	"Preformatted Text": {
+		"prefix": "pre",
+		"body": [
+			"<pre>",
+			"  This text will be",
+			"  displayed exactly",
+			"  as written,",
+			"  preserving white",
+			"  spaces and line",
+			"  breaks.",
+			"</pre>"
+		],
+		"description": "HTML Preformatted Text"
+	},
+	"Blockquote": {
+		"prefix": "blockquote",
+		"body": [
+			"<blockquote>",
+			"  <p>Quote text goes here</p>",
+			"  <footer>- Author Name</footer>",
+			"</blockquote>"
+		],
+		"description": "HTML Blockquote"
+	},
+	"Text-based Progress Bar": {
+		"prefix": "progress",
+		"body": [
+			"<p>",
+			"  Progress: [",
+			"    <span style='color: green;'>|||||||||</span>",
+			"    <span style='color: lightgray;'>_______</span>",
+			"  ]",
+			"</p>"
+		],
+		"description": "Text-based HTML Progress Bar"
+	},
+	"Meter": {
+		"prefix": "meter",
+		"body": ["<meter min='0' max='100' value='75'>75%</meter>"],
+		"description": "HTML Meter"
+	},
+	"Video Embed with Fallback": {
+		"prefix": "video-fallback",
+		"body": [
+			"<video controls>",
+			"  <source src='video.mp4' type='video/mp4'>",
+			"  <!-- fallback content -->",
+			"  Your browser does not support the video tag.",
+			"</video>"
+		],
+		"description": "Video Embed with Fallback Content"
+	},
+	"Audio Embed with Fallback": {
+		"prefix": "audio-fallback",
+		"body": [
+			"<audio controls>",
+			"  <source src='audio.mp3' type='audio/mp3'>",
+			"  <!-- fallback content -->",
+			"  Your browser does not support the audio tag.",
+			"</audio>"
+		],
+		"description": "HTML Audio Embed with Fallback Content"
+	},
+	"HTML Article with Header, Footer, and Navigation": {
+		"prefix": "full-article",
+		"body": [
+			"<header>",
+			"  <nav>",
+			"    <!-- navigation links -->",
+			"    <a href='#'>Home</a> |",
+			"    <a href='#'>About</a> |",
+			"    <a href='#'>Contact</a>",
+			"  </nav>",
+			"  <h1>Header</h1>",
+			"</header>",
+			"<article>",
+			"  <!-- article content -->",
+			"  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>",
+			"  <p>Donec aliquet dolor libero, eget cursus ante commodo in.</p>",
+			"</article>",
+			"<footer>",
+			"  <p>Footer</p>",
+			"</footer>"
+		],
+		"description": "HTML Article with Header, Footer, and Navigation"
+	},
+	"html definition list": {
+		"prefix": "definition-list",
+		"body": [
+			"<dl>",
+			"  <dt class>Definition Term</dt>",
+			"  <dd>Definition Description</dd>",
+			"</dl>"
+		],
+		"description": "HTML Definition List"
 	}
 }
