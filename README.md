@@ -4,7 +4,7 @@ This extension is like a cute and cuddly HTML coding buddy, always there to lend
 
 So, whether you're a seasoned HTML pro or a newbie just starting out, the "Best HTML Snippets" extension is a must-have for anyone who wants to write HTML like a pro in no time!
 
-### Author - Michael Baker [Looking for Work](https://www.linkedin.com/in/pxperfectmike/)
+### Author - Michael Baker --> [Looking for Work](https://www.linkedin.com/in/pxperfectmike/)
 
 [![MIT License](https://img.shields.io/badge/License-MIT-green.svg)](https://choosealicense.com/licenses/mit/)
 
@@ -14,9 +14,9 @@ So, whether you're a seasoned HTML pro or a newbie just starting out, the "Best 
 
     Start off your web development with a professional-grade HTML template.
 
-> text-based progress bar
+> text-based progress bar (progress)
 
-    Show progress and completion with a stylish, text-based bar that updates dynamically as the task progresses.
+    Show progress with a stylish, text-based bar that updates dynamically as the task progresses.
 
 > HTML Tables (htmltable)
 
@@ -85,13 +85,6 @@ None
 Initial release of Best HTML Snippets
 
 Please do not hesitate to contact me <a href = "mailto: pxperfectmike@gmail.com">Here</a> with any requests to add snippets and I will add them ASAP.
-
----
-
-## For more information
-
-- [Visual Studio Code's Markdown Support](http://code.visualstudio.com/docs/languages/markdown)
-- [Markdown Syntax Reference](https://help.github.com/articles/markdown-basics/)
 
 # **Enjoy!**
 
