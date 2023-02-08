@@ -344,17 +344,16 @@
 		],
 		"description": "HTML Blockquote"
 	},
-	"Text-based Progress Bar": {
+	"Progress Bar": {
 		"prefix": "progress",
 		"body": [
-			"<p>",
-			"  Progress: [",
-			"    <span style='color: green;'>|||||||||</span>",
-			"    <span style='color: lightgray;'>_______</span>",
-			"  ]",
-			"</p>"
+			"<div class='progress-container'>",
+			"  <div id='progress-bar'>",
+			"    <p id='progress-percent'>0%</p>",
+			"  </div>",
+			"</div>"
 		],
-		"description": "Text-based HTML Progress Bar"
+		"description": "Progress Bar"
 	},
 	"Meter": {
 		"prefix": "meter",
