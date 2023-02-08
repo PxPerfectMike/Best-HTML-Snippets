@@ -415,5 +415,24 @@
 			"</dl>"
 		],
 		"description": "HTML Definition List"
+	},
+	"HTML Figure with Figcaption": {
+		"prefix": "figure-figcaption",
+		"body": [
+			"<figure>",
+			"  <img src='image.jpg' alt='Image'>",
+			"  <figcaption>Caption for Image</figcaption>",
+			"</figure>"
+		],
+		"description": "HTML Figure with Figcaption"
+	},
+	"HTML Image with Link": {
+		"prefix": "img-link",
+		"body": [
+			"<a href='https://www.example.com'>",
+			"  <img src='image.jpg' alt='Image'>",
+			"</a>"
+		],
+		"description": "HTML Image with a Link"
 	}
 }
