@@ -16,5 +16,8 @@
         "path": "./snippets/snippets.code-snippets"
       }
     ]
+  },
+  "dependencies": {
+    "jsdoc": "^4.0.0"
   }
 }
