@@ -467,5 +467,28 @@
 			"</ol>"
 		],
 		"description": "The list starts at the number specified in the start attribute and is displayed in descending order."
+	},
+	"unordered list with type attribute": {
+		"prefix": "ul-type",
+		"body": [
+			"<ul type='${1|disk, circle, square|}'>",
+			"  <li>Item 1</li>",
+			"  <li>Item 2</li>",
+			"  <li>Item 3</li>",
+			"</ul>"
+		],
+		"description": "The list items are displayed with a square bullet."
+	},
+	"HTML Radio Buttons": {
+		"prefix": "radio-group",
+		"body": [
+			"<input type='radio' name='group' id='radio1' value='1'>",
+			"  <label for='radio1'>Option 1</label><br>",
+			"<input type='radio' name='group' id='radio2' value='2'>",
+			"  <label for='radio2'>Option 2</label><br>",
+			"<input type='radio' name='group' id='radio3' value='3'>",
+			"  <label for='radio3'>Option 3</label>"
+		],
+		"description": "A group of radio buttons allowing users to choose only one option"
 	}
 }
