@@ -434,5 +434,38 @@
 			"</a>"
 		],
 		"description": "HTML Image with a Link"
+	},
+	"HTML Ordered List with Start Attribute": {
+		"prefix": "ol-start",
+		"body": [
+			"<ol start='3'>",
+			"  <li>Item 3</li>",
+			"  <li>Item 4</li>",
+			"  <li>Item 5</li>",
+			"</ol>"
+		],
+		"description": "The list starts at the number specified in the start attribute."
+	},
+	"HTML Ordered List with Reversed Attribute": {
+		"prefix": "ol-reversed",
+		"body": [
+			"<ol reversed>",
+			"  <li>Item 3</li>",
+			"  <li>Item 2</li>",
+			"  <li>Item 1</li>",
+			"</ol>"
+		],
+		"description": "The list is displayed in descending order."
+	},
+	"HTML Ordered List with Start and Reversed Attributes": {
+		"prefix": "ol-start-reversed",
+		"body": [
+			"<ol start='5' reversed>",
+			"  <li>Item 5</li>",
+			"  <li>Item 4</li>",
+			"  <li>Item 3</li>",
+			"</ol>"
+		],
+		"description": "The list starts at the number specified in the start attribute and is displayed in descending order."
 	}
 }
