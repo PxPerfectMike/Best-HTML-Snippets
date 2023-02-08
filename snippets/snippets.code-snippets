@@ -407,7 +407,7 @@
 		"description": "HTML Article with Header, Footer, and Navigation"
 	},
 	"html definition list": {
-		"prefix": "definition-list",
+		"prefix": "dl",
 		"body": [
 			"<dl>",
 			"  <dt class>Definition Term</dt>",
@@ -479,7 +479,7 @@
 		],
 		"description": "The list items are displayed with a square bullet."
 	},
-	"HTML Radio Buttons": {
+	"Radio Buttons": {
 		"prefix": "radio-group",
 		"body": [
 			"<input type='radio' name='group' id='radio1' value='1'>",
@@ -490,5 +490,458 @@
 			"  <label for='radio3'>Option 3</label>"
 		],
 		"description": "A group of radio buttons allowing users to choose only one option"
+	},
+	"Heading 1": {
+		"prefix": "h1",
+		"body": ["<h1>Heading 1</h1>"],
+		"description": "The largest heading size."
+	},
+	"Heading 2": {
+		"prefix": "h2",
+		"body": ["<h2>Heading 2</h2>"],
+		"description": "The second largest heading size."
+	},
+	"Heading 3": {
+		"prefix": "h3",
+		"body": ["<h3>Heading 3</h3>"],
+		"description": "The third largest heading size."
+	},
+	"Heading 4": {
+		"prefix": "h4",
+		"body": ["<h4>Heading 4</h4>"],
+		"description": "The fourth largest heading size."
+	},
+	"Heading 5": {
+		"prefix": "h5",
+		"body": ["<h5>Heading 5</h5>"],
+		"description": "The fifth largest heading size."
+	},
+	"Heading 6": {
+		"prefix": "h6",
+		"body": ["<h6>Heading 6</h6>"],
+		"description": "The smallest heading size."
+	},
+	"Horizontal Rule": {
+		"prefix": "hr",
+		"body": ["<hr>"],
+		"description": "A horizontal rule."
+	},
+	"Paragraph": {
+		"prefix": "p",
+		"body": ["<p>Paragraph</p>"],
+		"description": "A paragraph."
+	},
+	"Abbreviation": {
+		"prefix": "abbr",
+		"body": ["<abbr title='Abbreviation'>Abbreviation</abbr>"],
+		"description": "An abbreviation."
+	},
+	"Address": {
+		"prefix": "address",
+		"body": ["<address>Address</address>"],
+		"description": "An address."
+	},
+	"Citation": {
+		"prefix": "cite",
+		"body": ["<cite>Citation</cite>"],
+		"description": "A citation."
+	},
+	"Definition": {
+		"prefix": "dfn",
+		"body": ["<dfn>Definition</dfn>"],
+		"description": "A definition."
+	},
+	"Keyboard Input": {
+		"prefix": "kbd",
+		"body": ["<kbd>Keyboard Input</kbd>"],
+		"description": "Keyboard input."
+	},
+	"Sample Output": {
+		"prefix": "samp",
+		"body": ["<samp>Sample Output</samp>"],
+		"description": "Sample output."
+	},
+	"Variable": {
+		"prefix": "var",
+		"body": ["<var>Variable</var>"],
+		"description": "A variable."
+	},
+	"Deleted Text": {
+		"prefix": "del",
+		"body": ["<del>Deleted Text</del>"],
+		"description": "Deleted text."
+	},
+	"Inserted Text": {
+		"prefix": "ins",
+		"body": ["<ins>Inserted Text</ins>"],
+		"description": "Inserted text."
+	},
+	"Bold": {
+		"prefix": "b",
+		"body": ["<b>Bold</b>"],
+		"description": "Bold text."
+	},
+	"Italic": {
+		"prefix": "i",
+		"body": ["<i>Italic</i>"],
+		"description": "Italic text."
+	},
+	"Underline": {
+		"prefix": "u",
+		"body": ["<u>Underline</u>"],
+		"description": "Underlined text."
+	},
+	"HTML Small": {
+		"prefix": "small",
+		"body": ["<small>Small</small>"],
+		"description": "Small text."
+	},
+	"Subscript": {
+		"prefix": "sub",
+		"body": ["<sub>Subscript</sub>"],
+		"description": "Subscript text."
+	},
+	"Superscript": {
+		"prefix": "sup",
+		"body": ["<sup>Superscript</sup>"],
+		"description": "Superscript text."
+	},
+	"Marked Text": {
+		"prefix": "mark",
+		"body": ["<mark>Marked Text</mark>"],
+		"description": "Marked text."
+	},
+	"HTML Code": {
+		"prefix": "code",
+		"body": ["<code>Code</code>"],
+		"description": "Code."
+	},
+	"Inline Quotation": {
+		"prefix": "q",
+		"body": ["<q>Inline Quotation</q>"],
+		"description": "Inline quotation."
+	},
+	"Line Break": {
+		"prefix": "br",
+		"body": ["<br>"],
+		"description": "A line break."
+	},
+	"Non-Breaking Space": {
+		"prefix": "nbsp",
+		"body": ["&nbsp;"],
+		"description": "A non-breaking space."
+	},
+	"Image": {
+		"prefix": "img",
+		"body": ["<img src='image.jpg' alt='Image'>"],
+		"description": "An image."
+	},
+	"Figure": {
+		"prefix": "figure",
+		"body": [
+			"<figure>",
+			"  <img src='image.jpg' alt='Image'>",
+			"  <figcaption>Figure Caption</figcaption>",
+			"</figure>"
+		],
+		"description": "A figure."
+	},
+	"Figure Caption": {
+		"prefix": "figcaption",
+		"body": ["<figcaption>Figure Caption</figcaption>"],
+		"description": "A figure caption."
+	},
+	"Audio": {
+		"prefix": "audio",
+		"body": [
+			"<audio controls>",
+			"  <source src='audio.mp3' type='audio/mpeg'>",
+			"  <source src='audio.ogg' type='audio/ogg'>",
+			"  Your browser does not support the audio element.",
+			"</audio>"
+		],
+		"description": "An audio element."
+	},
+	"Video": {
+		"prefix": "video",
+		"body": [
+			"<video controls>",
+			"  <source src='video.mp4' type='video/mp4'>",
+			"  <source src='video.ogg' type='video/ogg'>",
+			"  Your browser does not support the video element.",
+			"</video>"
+		],
+		"description": "A video element."
+	},
+	"Source": {
+		"prefix": "source",
+		"body": ["<source src='video.mp4' type='video/mp4'>"],
+		"description": "A source element."
+	},
+	"Track": {
+		"prefix": "track",
+		"body": [
+			"<track src='subtitles_en.vtt' kind='subtitles' srclang='en' label='English'>"
+		],
+		"description": "A track element."
+	},
+	"Embed": {
+		"prefix": "embed",
+		"body": ["<embed src='embed.swf' type='application/x-shockwave-flash'>"],
+		"description": "An embed element."
+	},
+	"Object": {
+		"prefix": "object",
+		"body": [
+			"<object data='object.svg' type='image/svg+xml'>",
+			"  <param name='src' value='object.svg'>",
+			"  <param name='type' value='image/svg+xml'>",
+			"  Your browser does not support the object element.",
+			"</object>"
+		],
+		"description": "An object element."
+	},
+	"Parameter": {
+		"prefix": "param",
+		"body": ["<param name='src' value='object.svg'>"],
+		"description": "A parameter."
+	},
+	"Canvas": {
+		"prefix": "canvas",
+		"body": ["<canvas id='myCanvas' width='200' height='100'></canvas>"],
+		"description": "A canvas element."
+	},
+	"Map": {
+		"prefix": "map",
+		"body": [
+			"<map name='planetmap'>",
+			"  <area shape='rect' coords='0,0,82,126' alt='Sun' href='sun.htm'>",
+			"  <area shape='circle' coords='90,58,3' alt='Mercury' href='mercur.htm'>",
+			"  <area shape='circle' coords='124,58,8' alt='Venus' href='venus.htm'>",
+			"</map>"
+		],
+		"description": "A map element."
+	},
+	"Area": {
+		"prefix": "area",
+		"body": [
+			"<area shape='rect' coords='0,0,82,126' alt='Sun' href='sun.htm'>"
+		],
+		"description": "An area element."
+	},
+	"Table": {
+		"prefix": "table",
+		"body": [
+			"<table>",
+			"  <caption>Table Caption</caption>",
+			"  <thead>",
+			"    <tr>",
+			"      <th>Header 1</th>",
+			"      <th>Header 2</th>",
+			"      <th>Header 3</th>",
+			"    </tr>",
+			"  </thead>",
+			"  <tfoot>",
+			"    <tr>",
+			"      <td>Footer 1</td>",
+			"      <td>Footer 2</td>",
+			"      <td>Footer 3</td>",
+			"    </tr>",
+			"  </tfoot>",
+			"  <tbody>",
+			"    <tr>",
+			"      <td>Cell 1</td>",
+			"      <td>Cell 2</td>",
+			"      <td>Cell 3</td>",
+			"    </tr>",
+			"    <tr>",
+			"      <td>Cell 4</td>",
+			"      <td>Cell 5</td>",
+			"      <td>Cell 6</td>",
+			"    </tr>",
+			"  </tbody>",
+			"</table>"
+		],
+		"description": "A table."
+	},
+	"Table Caption": {
+		"prefix": "caption",
+		"body": ["<caption>Table Caption</caption>"],
+		"description": "A table caption."
+	},
+	"Table Head": {
+		"prefix": "thead",
+		"body": [
+			"<thead>",
+			"  <tr>",
+			"    <th>Header 1</th>",
+			"    <th>Header 2</th>",
+			"    <th>Header 3</th>",
+			"  </tr>",
+			"</thead>"
+		],
+		"description": "A table head."
+	},
+	"Table Foot": {
+		"prefix": "tfoot",
+		"body": [
+			"<tfoot>",
+			"  <tr>",
+			"    <td>Footer 1</td>",
+			"    <td>Footer 2</td>",
+			"    <td>Footer 3</td>",
+			"  </tr>",
+			"</tfoot>"
+		],
+		"description": "A table foot."
+	},
+	"Table Body": {
+		"prefix": "tbody",
+		"body": [
+			"<tbody>",
+			"  <tr>",
+			"    <td>Cell 1</td>",
+			"    <td>Cell 2</td>",
+			"    <td>Cell 3</td>",
+			"  </tr>",
+			"  <tr>",
+			"    <td>Cell 4</td>",
+			"    <td>Cell 5</td>",
+			"    <td>Cell 6</td>",
+			"  </tr>",
+			"</tbody>"
+		],
+		"description": "A table body."
+	},
+	"Table Row": {
+		"prefix": "tr",
+		"body": [
+			"<tr>",
+			"  <td>Cell 1</td>",
+			"  <td>Cell 2</td>",
+			"  <td>Cell 3</td>",
+			"</tr>"
+		],
+		"description": "A table row."
+	},
+	"Table Header": {
+		"prefix": "th",
+		"body": ["<th>Header 1</th>"],
+		"description": "A table header."
+	},
+	"Table Data": {
+		"prefix": "td",
+		"body": ["<td>Cell 1</td>"],
+		"description": "A table data cell."
+	},
+	"Form": {
+		"prefix": "form",
+		"body": [
+			"<form action='action_page.php'>",
+			"  First name:<br>",
+			"  <input type='text' name='firstname' value='Mickey'>",
+			"  <br>",
+			"  Last name:<br>",
+			"  <input type='text' name='lastname' value='Mouse'>",
+			"  <br><br>",
+			"  <input type='submit' value='Submit'>",
+			"</form>"
+		],
+		"description": "A form."
+	},
+	"Form Input": {
+		"prefix": "input",
+		"body": ["<input type='text' name='firstname' value='Mickey'>"],
+		"description": "A form input."
+	},
+	"Form Textarea": {
+		"prefix": "textarea",
+		"body": [
+			"<textarea name='message' rows='10' cols='30'>The cat was playing in the garden.</textarea>"
+		],
+		"description": "A form textarea."
+	},
+	"Form Select": {
+		"prefix": "select",
+		"body": [
+			"<select name='cars'>",
+			"  <option value='volvo'>Volvo</option>",
+			"  <option value='saab'>Saab</option>",
+			"  <option value='fiat'>Fiat</option>",
+			"  <option value='audi'>Audi</option>",
+			"</select>"
+		],
+		"description": "A form select."
+	},
+	"Form Option": {
+		"prefix": "option",
+		"body": ["<option value='volvo'>Volvo</option>"],
+		"description": "A form option."
+	},
+	"Form Button": {
+		"prefix": "button",
+		"body": [
+			"<button type='button' onclick='alert('Hello world!')'>Click Me!</button>"
+		],
+		"description": "A form button."
+	},
+	"div": {
+		"prefix": "div",
+		"body": ["<div></div>"],
+		"description": "A div."
+	},
+	"span": {
+		"prefix": "span",
+		"body": ["<span></span>"],
+		"description": "A span."
+	},
+	"center": {
+		"prefix": "center",
+		"body": ["<center></center>"],
+		"description": "Center content."
+	},
+	"mark": {
+		"prefix": "mark",
+		"body": ["<mark>$1</mark>"],
+		"description": "Marked text."
+	},
+	"head": {
+		"prefix": "head",
+		"body": [
+			"<head>",
+			"  <title>$1</title>",
+			"  <meta charset='UTF-8'>",
+			"  <meta name='description' content='$2'>",
+			"  <meta name='keywords' content='$3'>",
+			"  <meta name='author' content='$4'>",
+			"  <meta name='viewport' content='width=device-width, initial-scale=1.0'>",
+			"</head>"
+		],
+		"description": "HTML head."
+	},
+	"body": {
+		"prefix": "body",
+		"body": ["<body>", "  $1", "</body>"],
+		"description": "HTML body."
+	},
+	"title": {
+		"prefix": "title",
+		"body": ["<title>$1</title>"],
+		"description": "HTML title."
+	},
+	"meta": {
+		"prefix": "meta",
+		"body": ["<meta charset='UTF-8'>"],
+		"description": "HTML meta."
+	},
+	"link": {
+		"prefix": "link",
+		"body": ["<link rel='stylesheet' type='text/css' href='style.css'>"],
+		"description": "HTML link."
+	},
+	"script": {
+		"prefix": "script",
+		"body": ["<script>", "  $1", "</script>"],
+		"description": "HTML script."
 	}
 }
