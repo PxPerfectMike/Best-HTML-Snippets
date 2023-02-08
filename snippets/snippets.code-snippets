@@ -42,7 +42,7 @@
 		"description": "Basic HTML Table"
 	},
 	"User Information Fieldset with Legend": {
-		"prefix": "UserInfoFieldset",
+		"prefix": "userinfofield",
 		"body": [
 			"<fieldset>",
 			"  <legend>User Information</legend>",
@@ -57,14 +57,14 @@
 		"description": "User Information Fieldset with Legend"
 	},
 	"Restrict Image Type Uploads": {
-		"prefix": "restrictUploads",
+		"prefix": "restrictuploads",
 		"body": [
 			"<input type='file' name='$1' accept='image/gif,image/jpeg,image/jpg,image/png'>"
 		],
 		"description": "Restrict uploads to gifs, jpegs, and pngs."
 	},
 	"Add Autocomplete Without Javascript": {
-		"prefix": "autocompleteNoJS",
+		"prefix": "autocompletenojs",
 		"body": [
 			"<input name='$1', list='$2' />",
 			"<datalist id='$3'>",
@@ -77,14 +77,14 @@
 		"description": "Add autocomplete without javascript."
 	},
 	"Input With Email Validation": {
-		"prefix": "emailValidation",
+		"prefix": "emailvalidation",
 		"body": [
 			"<input type='text' title='email_address' required pattern='[^@]+@[^@]+.[a-zA-Z]{2,6}' />"
 		],
 		"description": "Input with email validation."
 	},
 	"Add Google Places search to a form": {
-		"prefix": "googlePlaces",
+		"prefix": "googleplaces",
 		"body": [
 			"<form action='http://maps.google.com/maps' method='get' target='_blank'>",
 			"  <label for='saddr'>Enter your location</label>",
@@ -96,12 +96,12 @@
 		"description": "Add Google Places search to a form."
 	},
 	"Input with autocomplete off": {
-		"prefix": "autocompleteOff",
+		"prefix": "autooff",
 		"body": ["<input name='query' type='text' autocomplete='off' />"],
 		"description": "Turn off autocomplete in an input."
 	},
 	"Post a form to a new window/tab": {
-		"prefix": "formNewWindow",
+		"prefix": "newformwindow",
 		"body": [
 			"<form action='#' method='post' target='_blank'>",
 			"  <input type='submit' value='Submit' />",
@@ -110,7 +110,7 @@
 		"description": "Post a form to a new window or tab."
 	},
 	"Google Search Form": {
-		"prefix": "googleSearch",
+		"prefix": "googlesearch",
 		"body": [
 			"<form action='http://www.google.com/search' method='get'>",
 			"  <fieldset>",
@@ -123,34 +123,34 @@
 		"description": "Google Search Form"
 	},
 	"Create Phone Link": {
-		"prefix": "phoneLink",
+		"prefix": "phonelink",
 		"body": ["<a href='tel:555-555-5555'>555-555-5555</a>"],
 		"description": "Create phone link."
 	},
 	"Create SMS Link": {
-		"prefix": "smsLink",
+		"prefix": "smslink",
 		"body": ["<a href='sms:555-555-5555'>Send Text Message</a>"],
 		"description": "Create phone link."
 	},
 	"Email Link": {
-		"prefix": "emailLink",
+		"prefix": "emaillink",
 		"body": ["<a href='mailto:me@example.com'>Email Me</a>"],
 		"description": "Email Link"
 	},
 	"Hide url link": {
-		"prefix": "hideLink",
+		"prefix": "hidelink",
 		"body": [
 			"<a href='hiddenurl' target='blank' onMouseOver='self.status='displayed_url'; return true;' onMouseOut='self.status='';'>Label</a>"
 		],
 		"description": "Hide the url of a link."
 	},
 	"Create a link to a file": {
-		"prefix": "fileLink",
+		"prefix": "filelink",
 		"body": ["<a href='file.pdf'>Download File</a>"],
 		"description": "Create a link to a file."
 	},
 	"Prevent Page Indexing": {
-		"prefix": "noIndex",
+		"prefix": "noindex",
 		"body": [
 			"<meta name='robots' content='noindex, nofollow'>",
 			"<meta name='googlebot' content='noindex, nofollow'>"
@@ -158,12 +158,12 @@
 		"description": "Meta tags to prevent page indexing"
 	},
 	"Load JavaScript asynchronously": {
-		"prefix": "asyncJS",
+		"prefix": "asyncjs",
 		"body": ["<script src='script.js' async></script>"],
 		"description": "Load JavaScript asynchronously"
 	},
 	"Load JavaScript deferred": {
-		"prefix": "deferJS",
+		"prefix": "deferjs",
 		"body": ["<script src='script.js' defer></script>"],
 		"description": "Load JavaScript deferred"
 	},

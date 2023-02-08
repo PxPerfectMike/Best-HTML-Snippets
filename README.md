@@ -1,69 +1,101 @@
-# basicsnippets README yo
+# Best HTML Snippets
 
-This is the README for your extension "basicsnippets". After writing up a brief description, we recommend including the following sections.
+This extension is like a cute and cuddly HTML coding buddy, always there to lend you a hand with its library of useful HTML snippets. And trust me, it's a real lifesaver on those days when you just can't seem to remember how to write that perfect form tag.
+
+So, whether you're a seasoned HTML pro or a newbie just starting out, the "Best HTML Snippets" extension is a must-have for anyone who wants to write HTML like a pro in no time!
+
+### Author - Michael Baker [Looking for Work](https://www.linkedin.com/in/pxperfectmike/)
+
+[![MIT License](https://img.shields.io/badge/License-MIT-green.svg)](https://choosealicense.com/licenses/mit/)
 
 ## Features
 
-Describe specific features of your extension including screenshots of your extension in action. Image paths are relative to this README file.
+> HTML Boilerplate (htmlpage)
 
-For example if there is an image subfolder under your extension project workspace:
+    Start off your web development with a professional-grade HTML template.
 
-\!\[feature X\]\(images/feature-x.png\)
+> text-based progress bar
 
-> Tip: Many popular extensions utilize animations. This is an excellent way to show off your extension! We recommend short, focused animations that are easy to follow.
+    Show progress and completion with a stylish, text-based bar that updates dynamically as the task progresses.
 
-## Requirements
+> HTML Tables (htmltable)
 
-If you have any requirements or dependencies, add a section describing those and how to install and configure them.
+    Quickly create beautiful, functional tables to organize your data.
 
-## Extension Settings
+> User Information Fieldsets (userinfofield)
 
-Include if your extension adds any VS Code settings through the `contributes.configuration` extension point.
+    Easily create fieldsets with legends to gather user information in a clean and organized manner.
 
-For example:
+> Image Type Restrictions (restrictuploads)
 
-This extension contributes the following settings:
+    Prevent the upload of undesirable image types to keep your site secure and optimized.
 
-- `myExtension.enable`: Enable/disable this extension.
-- `myExtension.thing`: Set to `blah` to do something.
+> Autocomplete without JavaScript (autocomplete)
+
+    Experience the convenience of autocomplete functionality without relying on JavaScript.
+
+> Email Validation Inputs (emailvalidation)
+
+    Ensure accurate email addresses with built-in email validation for your form inputs.
+
+> Google Places Search (googleplaces)
+
+    Enhance your forms with the power of Google Places, allowing for easy location searching.
+
+> Autocomplete Off Inputs (autooff)
+
+    Turn off autocomplete for select inputs to protect sensitive information.
+
+> Form Posting to New Window/Tab (newformwindow)
+
+    Allow your users to submit forms in a new window or tab for a seamless experience.
+
+> Google Search Form (googlesearch)
+
+    Add a Google Search form to your site for quick and easy searches.
+
+> Phone, SMS, and Email Links (smslink, phonelink, emaillink)
+
+    Create links for phone calls, text messages, and emails with just a few clicks.
+
+> Hidden URL Links (hidelink)
+
+    Hide the URL of a link for added privacy and security.
+
+> File Links (filelink)
+
+    Create links to files for easy downloading or access.
+
+> Page Non-Indexing (noindex)
+
+    Prevent search engines from indexing specific pages on your site for added privacy and security.
+
+> Asynchronous and Deferred JavaScript Loading (asyncjs, deferjs)
+
+    Optimize your site's load time with asynchronous and deferred JavaScript loading.
 
 ## Known Issues
 
-Calling out known issues can help limit users opening duplicate issues against your extension.
+None
 
 ## Release Notes
 
-Users appreciate release notes as you update your extension.
-
 ### 1.0.0
 
-Initial release of ...
+Initial release of Best HTML Snippets
 
-### 1.0.1
-
-Fixed issue #.
-
-### 1.1.0
-
-Added features X, Y, and Z.
+Please do not hesitate to contact me <a href = "mailto: pxperfectmike@gmail.com">Here</a> with any requests to add snippets and I will add them ASAP.
 
 ---
-
-## Working with Markdown
-
-You can author your README using Visual Studio Code. Here are some useful editor keyboard shortcuts:
-
-- Split the editor (`Cmd+\` on macOS or `Ctrl+\` on Windows and Linux).
-- Toggle preview (`Shift+Cmd+V` on macOS or `Shift+Ctrl+V` on Windows and Linux).
-- Press `Ctrl+Space` (Windows, Linux, macOS) to see a list of Markdown snippets.
 
 ## For more information
 
 - [Visual Studio Code's Markdown Support](http://code.visualstudio.com/docs/languages/markdown)
 - [Markdown Syntax Reference](https://help.github.com/articles/markdown-basics/)
 
-**Enjoy!**
-<<<<<<< HEAD
-=======
-# html-snippet-extension
->>>>>>> origin/main
+# **Enjoy!**
+
+## Acknowledgements
+
+- [29 HTML Snippets for the Most Frequently Used HTML Tasks](https://www.codecademy.com/resources/blog/29-html-snippets/)
+- [HTML Snippets: The Most Useful Ready-to-use Examples](https://catswhocode.com/html-snippets/)
