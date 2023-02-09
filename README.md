@@ -10,6 +10,7 @@ So, whether you're a seasoned HTML pro or a newbie just starting out, the "Best 
 
 [![MIT License](https://img.shields.io/badge/License-MIT-green.svg)](./LICENSE)
 [![VSCode](https://img.shields.io/badge/VSCode-0078D4?style=for-the-badge&logo=visual%20studio%20code&logoColor=white)](https://code.visualstudio.com/download)
+[![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)](https://developer.mozilla.org/en-US/docs/Web/HTML)
 
 ## Top Features
 
@@ -35,7 +36,7 @@ So, whether you're a seasoned HTML pro or a newbie just starting out, the "Best 
 
 > ## TIP!
 >
-> ### While the top features are impressive, the real magic lies in the multitude of HTML snippets that are waiting for you to discover. These snippets are not just mere code snippets, but they are the building blocks of your next masterpiece. So, get ready to unleash your creativity and take your HTML coding to the next level. Whether you're a seasoned developer or a beginner, this extension is your ticket to a world of endless possibilities. If you dont find what you need with this extension please submit the proposed snippet <a href = "mailto: pxperfectmike@gmail.com">Here</a>.
+> ### While the top features are impressive, the real magic lies in the multitude of HTML snippets that are waiting for you to discover. These snippets are not just mere code snippets, but they are the building blocks of your next masterpiece. So, get ready to unleash your creativity and take your HTML coding to the next level. Whether you're a seasoned developer or a beginner, this extension is your ticket to a world of endless possibilities. If you dont find what you need with this extension please submit the proposed snippet or idea in an email [here](mailto:pxperfectmike@gmail.com).
 
 ## Known Issues
 
@@ -47,7 +48,9 @@ None
 
 Initial release of Best HTML Snippets
 
-Please do not hesitate to contact me <a href = "mailto: pxperfectmike@gmail.com">Here</a> with any requests to add or modify snippets and I will get to it ASAP.
+Please do not hesitate to contact me with any requests to add or modify snippets and I will get to it ASAP.
+
+<span style="display: flex; margin: 0; padding: 0.4em; color: white; font-family: cursive; font-size: 1.2em;">Email Me</span> [![](https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:pxperfectmike@gmail.com)
 
 **_Thank you for downloading_**
 
@@ -82,5 +85,7 @@ function updateProgress(percent) {
 ```markdown
 Requires Javascript file to work appropriately
 ```
+
+<img style="display: flex; align-items: center; width: 50vw;" src="https://github-readme-activity-graph.cyclic.app/graph?username=PxPerfectMike&theme=github">
 
 [Back to top](#best-html-snippets)
