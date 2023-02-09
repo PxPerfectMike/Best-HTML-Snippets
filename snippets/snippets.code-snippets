@@ -149,7 +149,7 @@
 		"body": ["<a href='file.pdf'>Download File</a>"],
 		"description": "Create a link to a file."
 	},
-	"Prevent Page Indexing": {
+	"Meta Tag Prevent Page Indexing": {
 		"prefix": "best-noindex",
 		"body": [
 			"<meta name='robots' content='noindex, nofollow'>",
@@ -157,7 +157,7 @@
 		],
 		"description": "Meta tags to prevent page indexing"
 	},
-	"Load JavaScript asynchronously": {
+	"Load JavaScript Asynchronously": {
 		"prefix": "best-asyncjs",
 		"body": ["<script src='script.js' async></script>"],
 		"description": "Load JavaScript asynchronously"
@@ -167,7 +167,7 @@
 		"body": ["<script src='script.js' defer></script>"],
 		"description": "Load JavaScript deferred"
 	},
-	"Add a favicon": {
+	"Links to add a favicon": {
 		"prefix": "best-addFavicon",
 		"body": [
 			"<link rel='shortcut icon' href='favicon.ico' type='image/x-icon'>",
@@ -175,14 +175,14 @@
 		],
 		"description": "Add a favicon"
 	},
-	"Make Page Responsive": {
+	"Responsive Page Meta Tag": {
 		"prefix": "best-responsive",
 		"body": [
 			"<meta name='viewport' content='width=device-width, initial-scale=1.0'>"
 		],
 		"description": "Make page responsive"
 	},
-	"Redirect a page to another": {
+	"Meta Tag Page Redirect": {
 		"prefix": "best-redirect",
 		"body": [
 			"<meta http-equiv='refresh' content='5;url=https://www.google.com/' />"
@@ -211,27 +211,27 @@
 		],
 		"description": "Javascript fallback"
 	},
-	"lorem ipsum long": {
+	"A Long Lorem Ipsum": {
 		"prefix": "best-lorem",
 		"body": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod, nunc sit amet aliquet lacinia, nisi nisl aliquet nisl, eget aliquet nisl nunc eget lorem. Sed euismod, nunc sit amet aliquet lacinia, nisi nisl aliquet nisl, eget aliquet nisl nunc eget lorem. Sed euismod, nunc sit amet aliquet lacinia, nisi nisl aliquet nisl, eget aliquet nisl nunc eget lorem. Sed euismod, nunc sit amet aliquet lacinia, nisi nisl aliquet nisl, eget aliquet nisl nunc eget lorem. Sed euismod, nunc sit amet aliquet lacinia, nisi nisl aliquet nisl, eget aliquet nisl nunc eget lorem. Sed euismod, nunc sit amet aliquet lacinia, nisi nisl aliquet nisl, eget aliquet nisl nunc eget lorem. Sed euismod, nunc sit amet aliquet lacinia, nisi nisl aliquet nisl, eget aliquet nisl nunc eget lorem. Sed euismod, nunc sit amet aliquet lacinia, nisi nisl aliquet nisl, eget aliquet nisl nunc eget lorem. Sed euismod, nunc sit amet aliquet lacinia, nisi nisl aliquet nisl, eget aliquet nisl nunc eget lorem. Sed euismod, nunc sit amet aliquet lacinia, nisi nisl aliquet nisl, eget aliquet nisl nunc eget lorem. Sed euismod, nunc sit amet aliquet lacinia, nisi nisl aliquet nisl, eget aliquet nisl nunc eget lorem. Sed euismod, nunc sit amet aliquet lacinia, nisi nisl aliquet nisl, eget aliquet nisl nunc eget lorem. Sed euismod, nunc sit amet aliquet lacinia, nisi nisl aliquet nisl, eget aliquet nisl nunc eget lorem. Sed euismod, nunc sit amet aliquet lacinia, nisi nisl aliquet nisl, eget aliquet nisl nunc eget lorem. Sed euismod, nunc sit amet aliquet lacinia, nisi nisl aliquet nisl, eget aliquet",
 		"description": "lorem ipsum"
 	},
-	"Preserve the formatting of code": {
+	"Code Tag to Preserve Format": {
 		"prefix": "best-code",
 		"body": ["<code>$1</code>"],
 		"description": "Preserve the formatting of code"
 	},
-	"Add a comment": {
+	"Add a Comment": {
 		"prefix": "best-comment",
 		"body": ["<!-- $1 -->"],
 		"description": "Add a comment"
 	},
-	"Add a link to a stylesheet": {
+	"Link to a stylesheet": {
 		"prefix": "best-linkstyle",
 		"body": ["<link rel='stylesheet' href='$1'>"],
 		"description": "Add a link to a stylesheet"
 	},
-	"embed video in page": {
+	"Embed Video in Page": {
 		"prefix": "best-srcvideo",
 		"body": [
 			"<video poster='images/preview.png' width='800' height='600' controls='controls' preload='none'>",
@@ -260,7 +260,7 @@
 		],
 		"description": "Login Form"
 	},
-	"Downloadable file": {
+	"Downloadable File Anchor href with Image": {
 		"prefix": "best-download",
 		"body": [
 			"<a href='download/file.zip' download='file.zip'>",
@@ -269,12 +269,12 @@
 		],
 		"description": "Downloadable file"
 	},
-	"highlighted text": {
+	"highlighted text using <mark>": {
 		"prefix": "best-highlight",
 		"body": ["<mark>$1</mark>"],
 		"description": "highlighted text"
 	},
-	"Ordered List": {
+	"Ordered List with items": {
 		"prefix": "best-orderedlist",
 		"body": [
 			"<ol>",
@@ -285,7 +285,7 @@
 		],
 		"description": "HTML Ordered List"
 	},
-	"Unordered List": {
+	"Unordered List with Items": {
 		"prefix": "best-ul",
 		"body": [
 			"<ul>",
