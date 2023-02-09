@@ -33,7 +33,9 @@ So, whether you're a seasoned HTML pro or a newbie just starting out, the "Best 
 | `asyncjs`                       | Script tag to load javascript asynchronously                                                     | [JavaScript](#asyncjs-deferjs)  |
 | `deferjs`                       | Script tag to load javascript deferred                                                           | [JavaScript](#asyncjs-deferjs)  |
 
-> While the top features are impressive, the real magic lies in the multitude of HTML snippets that are waiting for you to discover. These snippets are not just mere code snippets, but they are the building blocks of your next masterpiece. So, get ready to unleash your creativity and take your HTML coding to the next level. Whether you're a seasoned developer or a beginner, this extension is your ticket to a world of endless possibilities. If you dont find what you need with this extension please submit the proposed snippet <a href = "mailto: pxperfectmike@gmail.com">Here</a>.
+> ## TIP!
+>
+> ### While the top features are impressive, the real magic lies in the multitude of HTML snippets that are waiting for you to discover. These snippets are not just mere code snippets, but they are the building blocks of your next masterpiece. So, get ready to unleash your creativity and take your HTML coding to the next level. Whether you're a seasoned developer or a beginner, this extension is your ticket to a world of endless possibilities. If you dont find what you need with this extension please submit the proposed snippet <a href = "mailto: pxperfectmike@gmail.com">Here</a>.
 
 ## Known Issues
 
