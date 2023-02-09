@@ -80,7 +80,7 @@ function updateProgress(percent) {
 
 > ## asyncjs, deferjs
 
-```markdown
+```
 Requires Javascript file to work appropriately
 ```
 
