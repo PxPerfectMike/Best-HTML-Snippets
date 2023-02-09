@@ -1,10 +1,15 @@
-# Best HTML Snippets
+<link></link>
+# <b style="display: flex; color: #ffffff; justify-content: center; font-size: 1.6em; font-family: 'Brush Script MT', cursive;">Best Html Snippets</b>
 
-This extension is like a cute and cuddly HTML coding buddy, always there to lend you a hand with its library of useful HTML snippets. And trust me, it's a real lifesaver on those days when you just can't seem to remember how to write that perfect form tag.
+<p style="color: #cccccc">This extension is like a cute and cuddly HTML coding buddy, always there to lend you a hand with its library of useful HTML snippets. And trust me, it's a real lifesaver on those days when you just can't seem to remember how to write that perfect form tag.</p>
 
-So, whether you're a seasoned HTML pro or a newbie just starting out, the "Best HTML Snippets" extension is a must-have for anyone who wants to write HTML like a pro in no time!
+<p style="color: #cccccc">So, whether you're a seasoned HTML pro or a newbie just starting out, the "Best HTML Snippets" extension is a must-have for anyone who wants to write HTML like a pro in no time!</p>
 
-### Author - Michael Baker --> [Open to Opportunities](https://www.linkedin.com/in/pxperfectmike/)
+> ## <b style="font-size: 1.2em; color: #ff8000;">Tip!</b> All of the component and tag snippets have the prefix "best-". Example: best-htmlpage
+>
+> ## This makes it much easier for newbies to spot the tag or component they need and make it easy to navigate for pros!
+
+### <b style="font-size: 1.2em;">Author - Michael Baker <b style="color: #ffff00;">--></b> [<b style="color: #00baaa">Open to Opportunities</b>](https://www.linkedin.com/in/pxperfectmike/)</b>
 
 ---
 
@@ -12,9 +17,9 @@ So, whether you're a seasoned HTML pro or a newbie just starting out, the "Best 
 [![VSCode](https://img.shields.io/badge/VSCode-0078D4?style=for-the-badge&logo=visual%20studio%20code&logoColor=white)](https://code.visualstudio.com/download)
 [![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)](https://developer.mozilla.org/en-US/docs/Web/HTML)
 
-## Top Features
+## <b style="color: #ffffff">Top Features</b>
 
-|             Prefix              | Description                                                                                      |          Requirements           |
+|            Component            | Description                                                                                      |          Requirements           |
 | :-----------------------------: | ------------------------------------------------------------------------------------------------ | :-----------------------------: |
 |           `htmlpage`            | Start off your web development with a professional-grade HTML template.                          |              None               |
 |           `progress`            | Show progress with a stylish, text-based bar that updates dynamically as the task progresses.    | [JavaScript/CSS](#progress-bar) |
@@ -34,11 +39,9 @@ So, whether you're a seasoned HTML pro or a newbie just starting out, the "Best 
 |            `asyncjs`            | Script tag to load javascript asynchronously                                                     | [JavaScript](#asyncjs-deferjs)  |
 |            `deferjs`            | Script tag to load javascript deferred                                                           | [JavaScript](#asyncjs-deferjs)  |
 
-> ## TIP!
->
-> ### While the top features are impressive, the real magic lies in the multitude of HTML snippets that are waiting for you to discover. These snippets are not just mere code snippets, but they are the building blocks of your next masterpiece. So, get ready to unleash your creativity and take your HTML coding to the next level. Whether you're a seasoned developer or a beginner, this extension is your ticket to a world of endless possibilities. If you dont find what you need with this extension please submit the proposed snippet or idea in an email [here](mailto:pxperfectmike@gmail.com).
+> ## <b style="font-size: 1.2em; color: #ff8000;">Tip!</b> While the top features are impressive, the real magic lies in the multitude of HTML snippets that are waiting for you to discover. These snippets are not just mere code snippets, but they are the building blocks of your next masterpiece. So, get ready to unleash your creativity and take your HTML coding to the next level. Whether you're a seasoned developer or a beginner, this extension is your ticket to a world of endless possibilities. If you dont find what you need with this extension please submit the proposed snippet or idea in an email [here](mailto:pxperfectmike@gmail.com).
 
-## Known Issues
+## <b>Known Issues</b>
 
 None
 
