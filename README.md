@@ -56,7 +56,7 @@ Please do not hesitate to contact me with any requests to add or modify snippets
 
 # Requirements
 
-## Progress Bar
+> ## Progress Bar
 
 ```javascript
 function updateProgress(percent) {
@@ -78,7 +78,7 @@ function updateProgress(percent) {
 }
 ```
 
-## asyncjs, deferjs
+> ## asyncjs, deferjs
 
 ```markdown
 Requires Javascript file to work appropriately
