@@ -86,6 +86,6 @@ function updateProgress(percent) {
 Requires Javascript file to work appropriately
 ```
 
-<img style="display: flex; align-items: center; width: 50vw;" src="https://github-readme-activity-graph.cyclic.app/graph?username=PxPerfectMike&theme=github">
+<img style=" width: 100vw;" src="https://github-readme-activity-graph.cyclic.app/graph?username=PxPerfectMike&theme=github">
 
 [Back to top](#best-html-snippets)
