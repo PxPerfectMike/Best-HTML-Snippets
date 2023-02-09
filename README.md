@@ -52,9 +52,7 @@ Please do not hesitate to contact me with any requests to add or modify snippets
 
 <span style="display: flex; margin: 0; padding: 0.4em; color: white; font-family: cursive; font-size: 1.2em;">Email Me</span> [![](https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:pxperfectmike@gmail.com)
 
-**_Thank you for downloading_**
-
-# **ENJOY!**
+**_Thank you for downloading my extension!_**
 
 # Requirements
 
@@ -85,6 +83,12 @@ function updateProgress(percent) {
 ```markdown
 Requires Javascript file to work appropriately
 ```
+
+---
+
+---
+
+<br/>
 
 <img style=" width: 100vw;" src="https://github-readme-activity-graph.cyclic.app/graph?username=PxPerfectMike&theme=github">
 
