@@ -1,5 +1,6 @@
-<link></link>
-# <b style="display: flex; color: #ffffff; justify-content: center; font-size: 1.6em; font-family: 'Brush Script MT', cursive;">Best Html Snippets</b>
+<link href="https://fonts.googleapis.com/css?family=Lobster&display=swap" rel="stylesheet">
+
+# <b style="display: flex; color: #ffffff; justify-content: center; font-size: 2em; font-family: Lobster;">Best Html Snippets</b>
 
 <p style="color: #cccccc">This extension is like a cute and cuddly HTML coding buddy, always there to lend you a hand with its library of useful HTML snippets. And trust me, it's a real lifesaver on those days when you just can't seem to remember how to write that perfect form tag.</p>
 
