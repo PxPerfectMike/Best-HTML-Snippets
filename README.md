@@ -47,7 +47,7 @@ None
 
 Initial release of Best HTML Snippets
 
-Please do not hesitate to contact me <a href = "mailto: pxperfectmike@gmail.com">Here</a> with any requests to add snippets and I will add them ASAP.
+Please do not hesitate to contact me <a href = "mailto: pxperfectmike@gmail.com">Here</a> with any requests to add or modify snippets and I will get to it ASAP.
 
 **_Thank you for downloading_**
 
