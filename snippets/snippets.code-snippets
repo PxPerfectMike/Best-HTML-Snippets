@@ -1,6 +1,6 @@
 {
 	"Simple HTML Page structure": {
-		"prefix": "htmlpage",
+		"prefix": "best-html",
 		"body": [
 			"<!DOCTYPE html>",
 			"<html lang='${1|en,en-us,en-GB,fr|}'>",
@@ -19,7 +19,7 @@
 		"isFileTemplate": true
 	},
 	"Basic HTML Table": {
-		"prefix": "htmltable",
+		"prefix": "best-table",
 		"body": [
 			"<table>",
 			"  <tr>",
@@ -42,7 +42,7 @@
 		"description": "Basic HTML Table"
 	},
 	"User Information Fieldset with Legend": {
-		"prefix": "userinfofield",
+		"prefix": "best-userinfo",
 		"body": [
 			"<fieldset>",
 			"  <legend>User Information</legend>",
@@ -57,14 +57,14 @@
 		"description": "User Information Fieldset with Legend"
 	},
 	"Restrict Image Type Uploads": {
-		"prefix": "restrictuploads",
+		"prefix": "best-restrictuploads",
 		"body": [
 			"<input type='file' name='$1' accept='image/gif,image/jpeg,image/jpg,image/png'>"
 		],
 		"description": "Restrict uploads to gifs, jpegs, and pngs."
 	},
 	"Add Autocomplete Without Javascript": {
-		"prefix": "autocompletenojs",
+		"prefix": "best-autocompletenojs",
 		"body": [
 			"<input name='$1', list='$2' />",
 			"<datalist id='$3'>",
@@ -77,14 +77,14 @@
 		"description": "Add autocomplete without javascript."
 	},
 	"Input With Email Validation": {
-		"prefix": "emailvalidation",
+		"prefix": "best-emailvalidation",
 		"body": [
 			"<input type='text' title='email_address' required pattern='[^@]+@[^@]+.[a-zA-Z]{2,6}' />"
 		],
 		"description": "Input with email validation."
 	},
 	"Add Google Places search to a form": {
-		"prefix": "googleplaces",
+		"prefix": "best-googleplaces",
 		"body": [
 			"<form action='http://maps.google.com/maps' method='get' target='_blank'>",
 			"  <label for='saddr'>Enter your location</label>",
@@ -96,12 +96,12 @@
 		"description": "Add Google Places search to a form."
 	},
 	"Input with autocomplete off": {
-		"prefix": "autooff",
+		"prefix": "best-autocomplete-off",
 		"body": ["<input name='query' type='text' autocomplete='off' />"],
 		"description": "Turn off autocomplete in an input."
 	},
 	"Post a form to a new window/tab": {
-		"prefix": "newformwindow",
+		"prefix": "best-form-newtab",
 		"body": [
 			"<form action='#' method='post' target='_blank'>",
 			"  <input type='submit' value='Submit' />",
@@ -110,7 +110,7 @@
 		"description": "Post a form to a new window or tab."
 	},
 	"Google Search Form": {
-		"prefix": "googlesearch",
+		"prefix": "best-googlesearch",
 		"body": [
 			"<form action='http://www.google.com/search' method='get'>",
 			"  <fieldset>",
@@ -123,34 +123,34 @@
 		"description": "Google Search Form"
 	},
 	"Create Phone Link": {
-		"prefix": "phonelink",
+		"prefix": "best-phonelink",
 		"body": ["<a href='tel:555-555-5555'>555-555-5555</a>"],
 		"description": "Create phone link."
 	},
 	"Create SMS Link": {
-		"prefix": "smslink",
+		"prefix": "best-smslink",
 		"body": ["<a href='sms:555-555-5555'>Send Text Message</a>"],
 		"description": "Create phone link."
 	},
 	"Email Link": {
-		"prefix": "emaillink",
+		"prefix": "best-emaillink",
 		"body": ["<a href='mailto:me@example.com'>Email Me</a>"],
 		"description": "Email Link"
 	},
 	"Hide url link": {
-		"prefix": "hidelink",
+		"prefix": "best-hidelink",
 		"body": [
 			"<a href='hiddenurl' target='blank' onMouseOver='self.status='displayed_url'; return true;' onMouseOut='self.status='';'>Label</a>"
 		],
 		"description": "Hide the url of a link."
 	},
 	"Create a link to a file": {
-		"prefix": "filelink",
+		"prefix": "best-filelink",
 		"body": ["<a href='file.pdf'>Download File</a>"],
 		"description": "Create a link to a file."
 	},
 	"Prevent Page Indexing": {
-		"prefix": "noindex",
+		"prefix": "best-noindex",
 		"body": [
 			"<meta name='robots' content='noindex, nofollow'>",
 			"<meta name='googlebot' content='noindex, nofollow'>"
@@ -158,17 +158,17 @@
 		"description": "Meta tags to prevent page indexing"
 	},
 	"Load JavaScript asynchronously": {
-		"prefix": "asyncjs",
+		"prefix": "best-asyncjs",
 		"body": ["<script src='script.js' async></script>"],
 		"description": "Load JavaScript asynchronously"
 	},
 	"Load JavaScript deferred": {
-		"prefix": "deferjs",
+		"prefix": "best-deferjs",
 		"body": ["<script src='script.js' defer></script>"],
 		"description": "Load JavaScript deferred"
 	},
 	"Add a favicon": {
-		"prefix": "addFavicon",
+		"prefix": "best-addFavicon",
 		"body": [
 			"<link rel='shortcut icon' href='favicon.ico' type='image/x-icon'>",
 			"<link rel='icon' href='favicon.ico' type='image/x-icon'>"
@@ -176,21 +176,21 @@
 		"description": "Add a favicon"
 	},
 	"Make Page Responsive": {
-		"prefix": "responsive",
+		"prefix": "best-responsive",
 		"body": [
 			"<meta name='viewport' content='width=device-width, initial-scale=1.0'>"
 		],
 		"description": "Make page responsive"
 	},
 	"Redirect a page to another": {
-		"prefix": "redirect",
+		"prefix": "best-redirect",
 		"body": [
 			"<meta http-equiv='refresh' content='5;url=https://www.google.com/' />"
 		],
 		"description": "Redirect a page to another"
 	},
 	"Javascript fallback for noscript": {
-		"prefix": "noscript",
+		"prefix": "best-noscript",
 		"body": [
 			"<noscript>",
 			"  <style>",
@@ -204,40 +204,35 @@
 		"description": "Javascript fallback for noscript"
 	},
 	"Javascript fallback": {
-		"prefix": "jsFallback",
+		"prefix": "best-JSFallback",
 		"body": [
 			"<script src='//code.jquery.com/jquery.min.js'></script>",
 			"<script>window.jQuery || document.write('<script src='js/jquery.min.js'></script>')</script>"
 		],
 		"description": "Javascript fallback"
 	},
-	"Define the apple touch icon": {
-		"prefix": "appleTouchIcon",
-		"body": ["<link rel='apple-touch-icon' href='apple-touch-icon.png'>"],
-		"description": "Define the apple touch icon"
-	},
-	"lorem ipsum": {
-		"prefix": "lorem",
+	"lorem ipsum long": {
+		"prefix": "best-lorem",
 		"body": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod, nunc sit amet aliquet lacinia, nisi nisl aliquet nisl, eget aliquet nisl nunc eget lorem. Sed euismod, nunc sit amet aliquet lacinia, nisi nisl aliquet nisl, eget aliquet nisl nunc eget lorem. Sed euismod, nunc sit amet aliquet lacinia, nisi nisl aliquet nisl, eget aliquet nisl nunc eget lorem. Sed euismod, nunc sit amet aliquet lacinia, nisi nisl aliquet nisl, eget aliquet nisl nunc eget lorem. Sed euismod, nunc sit amet aliquet lacinia, nisi nisl aliquet nisl, eget aliquet nisl nunc eget lorem. Sed euismod, nunc sit amet aliquet lacinia, nisi nisl aliquet nisl, eget aliquet nisl nunc eget lorem. Sed euismod, nunc sit amet aliquet lacinia, nisi nisl aliquet nisl, eget aliquet nisl nunc eget lorem. Sed euismod, nunc sit amet aliquet lacinia, nisi nisl aliquet nisl, eget aliquet nisl nunc eget lorem. Sed euismod, nunc sit amet aliquet lacinia, nisi nisl aliquet nisl, eget aliquet nisl nunc eget lorem. Sed euismod, nunc sit amet aliquet lacinia, nisi nisl aliquet nisl, eget aliquet nisl nunc eget lorem. Sed euismod, nunc sit amet aliquet lacinia, nisi nisl aliquet nisl, eget aliquet nisl nunc eget lorem. Sed euismod, nunc sit amet aliquet lacinia, nisi nisl aliquet nisl, eget aliquet nisl nunc eget lorem. Sed euismod, nunc sit amet aliquet lacinia, nisi nisl aliquet nisl, eget aliquet nisl nunc eget lorem. Sed euismod, nunc sit amet aliquet lacinia, nisi nisl aliquet nisl, eget aliquet nisl nunc eget lorem. Sed euismod, nunc sit amet aliquet lacinia, nisi nisl aliquet nisl, eget aliquet",
 		"description": "lorem ipsum"
 	},
 	"Preserve the formatting of code": {
-		"prefix": "code",
+		"prefix": "best-code",
 		"body": ["<code>$1</code>"],
 		"description": "Preserve the formatting of code"
 	},
 	"Add a comment": {
-		"prefix": "comment",
+		"prefix": "best-comment",
 		"body": ["<!-- $1 -->"],
 		"description": "Add a comment"
 	},
 	"Add a link to a stylesheet": {
-		"prefix": "linkstyle",
+		"prefix": "best-linkstyle",
 		"body": ["<link rel='stylesheet' href='$1'>"],
 		"description": "Add a link to a stylesheet"
 	},
 	"embed video in page": {
-		"prefix": "video",
+		"prefix": "best-srcvideo",
 		"body": [
 			"<video poster='images/preview.png' width='800' height='600' controls='controls' preload='none'>",
 			"  <source src='media/my_video.mp4' type='video/mp4'></source>",
@@ -246,7 +241,7 @@
 		"description": "embed video in page"
 	},
 	"Login Form": {
-		"prefix": "loginform",
+		"prefix": "best-loginform",
 		"body": [
 			"<form role='form'>",
 			"  <div class='form-group'>",
@@ -266,7 +261,7 @@
 		"description": "Login Form"
 	},
 	"Downloadable file": {
-		"prefix": "download",
+		"prefix": "best-download",
 		"body": [
 			"<a href='download/file.zip' download='file.zip'>",
 			"  <img src='images/download.png' alt='Download file'>",
@@ -275,12 +270,12 @@
 		"description": "Downloadable file"
 	},
 	"highlighted text": {
-		"prefix": "highlight",
+		"prefix": "best-highlight",
 		"body": ["<mark>$1</mark>"],
 		"description": "highlighted text"
 	},
 	"Ordered List": {
-		"prefix": "orderedlist",
+		"prefix": "best-orderedlist",
 		"body": [
 			"<ol>",
 			"  <li>Item 1</li>",
@@ -291,7 +286,7 @@
 		"description": "HTML Ordered List"
 	},
 	"Unordered List": {
-		"prefix": "unorderedlist",
+		"prefix": "best-ul",
 		"body": [
 			"<ul>",
 			"  <li>Item 1</li>",
@@ -302,12 +297,14 @@
 		"description": "HTML Unordered List"
 	},
 	"Image with Alt Text": {
-		"prefix": "imgwithalt",
-		"body": ["<img src='image.jpg' alt='Image description'>"],
+		"prefix": "best-img-alt",
+		"body": [
+			"<img src='image.jpg' alt='Image description' width='200px' height='100px'>"
+		],
 		"description": "HTML Image with Alt Text"
 	},
 	"Anchor Link (Same Page)": {
-		"prefix": "a-same",
+		"prefix": "best-page-anchor",
 		"body": [
 			"<a href='#section1'>Jump to Section 1</a>",
 			"",
@@ -316,12 +313,12 @@
 		"description": "HTML Anchor Link (Same Page)"
 	},
 	"Abbreviation with Title": {
-		"prefix": "abbr",
+		"prefix": "best-abbr",
 		"body": ["<abbr title='Hypertext Markup Language'>HTML</abbr>"],
 		"description": "HTML Abbreviation with Title Attribute"
 	},
 	"Preformatted Text": {
-		"prefix": "pre",
+		"prefix": "best-pretext",
 		"body": [
 			"<pre>",
 			"  This text will be",
@@ -335,7 +332,7 @@
 		"description": "HTML Preformatted Text"
 	},
 	"Blockquote": {
-		"prefix": "blockquote",
+		"prefix": "best-blockquote",
 		"body": [
 			"<blockquote>",
 			"  <p>Quote text goes here</p>",
@@ -345,8 +342,10 @@
 		"description": "HTML Blockquote"
 	},
 	"Progress Bar": {
-		"prefix": "progress",
+		"prefix": "best-progress",
 		"body": [
+			"<!--- javascript and css needed for progress bar, please get at the Best HTML Snippets repository --->",
+			"<!--https://github.com/PxPerfectMike/Best-HTML-Snippets#progress-bar-->",
 			"<div class='progress-container'>",
 			"  <div id='progress-bar'>",
 			"    <p id='progress-percent'>0%</p>",
@@ -356,12 +355,12 @@
 		"description": "Progress Bar"
 	},
 	"Meter": {
-		"prefix": "meter",
+		"prefix": "best-meter",
 		"body": ["<meter min='0' max='100' value='75'>75%</meter>"],
 		"description": "HTML Meter"
 	},
 	"Video Embed with Fallback": {
-		"prefix": "video-fallback",
+		"prefix": "best-videofallback",
 		"body": [
 			"<video controls>",
 			"  <source src='video.mp4' type='video/mp4'>",
@@ -372,7 +371,7 @@
 		"description": "Video Embed with Fallback Content"
 	},
 	"Audio Embed with Fallback": {
-		"prefix": "audio-fallback",
+		"prefix": "best-audiofallback",
 		"body": [
 			"<audio controls>",
 			"  <source src='audio.mp3' type='audio/mp3'>",
@@ -383,7 +382,7 @@
 		"description": "HTML Audio Embed with Fallback Content"
 	},
 	"HTML Article with Header, Footer, and Navigation": {
-		"prefix": "full-article",
+		"prefix": "best-fullarticle",
 		"body": [
 			"<header>",
 			"  <nav>",
@@ -406,7 +405,7 @@
 		"description": "HTML Article with Header, Footer, and Navigation"
 	},
 	"html definition list": {
-		"prefix": "dl",
+		"prefix": "best-dl",
 		"body": [
 			"<dl>",
 			"  <dt class>Definition Term</dt>",
@@ -416,7 +415,7 @@
 		"description": "HTML Definition List"
 	},
 	"HTML Figure with Figcaption": {
-		"prefix": "figure-figcaption",
+		"prefix": "best-figure",
 		"body": [
 			"<figure>",
 			"  <img src='image.jpg' alt='Image'>",
@@ -426,7 +425,7 @@
 		"description": "HTML Figure with Figcaption"
 	},
 	"HTML Image with Link": {
-		"prefix": "img-link",
+		"prefix": "best-img-link",
 		"body": [
 			"<a href='https://www.example.com'>",
 			"  <img src='image.jpg' alt='Image'>",
@@ -435,7 +434,7 @@
 		"description": "HTML Image with a Link"
 	},
 	"HTML Ordered List with Start Attribute": {
-		"prefix": "ol-start",
+		"prefix": "best-ol-start",
 		"body": [
 			"<ol start='3'>",
 			"  <li>Item 3</li>",
@@ -446,7 +445,7 @@
 		"description": "The list starts at the number specified in the start attribute."
 	},
 	"HTML Ordered List with Reversed Attribute": {
-		"prefix": "ol-reversed",
+		"prefix": "best-ol-reversed",
 		"body": [
 			"<ol reversed>",
 			"  <li>Item 3</li>",
@@ -457,7 +456,7 @@
 		"description": "The list is displayed in descending order."
 	},
 	"HTML Ordered List with Start and Reversed Attributes": {
-		"prefix": "ol-start-reversed",
+		"prefix": "best-ol-start-reversed",
 		"body": [
 			"<ol start='5' reversed>",
 			"  <li>Item 5</li>",
@@ -468,7 +467,7 @@
 		"description": "The list starts at the number specified in the start attribute and is displayed in descending order."
 	},
 	"unordered list with type attribute": {
-		"prefix": "ul-type",
+		"prefix": "best-ul",
 		"body": [
 			"<ul type='${1|disk, circle, square|}'>",
 			"  <li>Item 1</li>",
@@ -479,7 +478,7 @@
 		"description": "The list items are displayed with a square bullet."
 	},
 	"Radio Buttons": {
-		"prefix": "radio-group",
+		"prefix": "best-radiogroup",
 		"body": [
 			"<input type='radio' name='group' id='radio1' value='1'>",
 			"  <label for='radio1'>Option 1</label><br>",
@@ -491,152 +490,147 @@
 		"description": "A group of radio buttons allowing users to choose only one option"
 	},
 	"Heading 1": {
-		"prefix": "h1",
+		"prefix": "best-h1",
 		"body": ["<h1>Heading 1</h1>"],
 		"description": "The largest heading size."
 	},
 	"Heading 2": {
-		"prefix": "h2",
+		"prefix": "best-h2",
 		"body": ["<h2>Heading 2</h2>"],
 		"description": "The second largest heading size."
 	},
 	"Heading 3": {
-		"prefix": "h3",
+		"prefix": "best-h3",
 		"body": ["<h3>Heading 3</h3>"],
 		"description": "The third largest heading size."
 	},
 	"Heading 4": {
-		"prefix": "h4",
+		"prefix": "best-h4",
 		"body": ["<h4>Heading 4</h4>"],
 		"description": "The fourth largest heading size."
 	},
 	"Heading 5": {
-		"prefix": "h5",
+		"prefix": "best-h5",
 		"body": ["<h5>Heading 5</h5>"],
 		"description": "The fifth largest heading size."
 	},
 	"Heading 6": {
-		"prefix": "h6",
+		"prefix": "best-h6",
 		"body": ["<h6>Heading 6</h6>"],
 		"description": "The smallest heading size."
 	},
 	"Horizontal Rule": {
-		"prefix": "hr",
+		"prefix": "best-hr",
 		"body": ["<hr>"],
 		"description": "A horizontal rule."
 	},
 	"Paragraph": {
-		"prefix": "p",
+		"prefix": "best-p",
 		"body": ["<p>Paragraph</p>"],
 		"description": "A paragraph."
 	},
-	"Abbreviation": {
-		"prefix": "abbr",
-		"body": ["<abbr title='Abbreviation'>Abbreviation</abbr>"],
-		"description": "An abbreviation."
-	},
 	"Address": {
-		"prefix": "address",
+		"prefix": "best-address",
 		"body": ["<address>Address</address>"],
 		"description": "An address."
 	},
 	"Citation": {
-		"prefix": "cite",
+		"prefix": "best-cite",
 		"body": ["<cite>Citation</cite>"],
 		"description": "A citation."
 	},
 	"Definition": {
-		"prefix": "dfn",
+		"prefix": "best-dfn",
 		"body": ["<dfn>Definition</dfn>"],
 		"description": "A definition."
 	},
 	"Keyboard Input": {
-		"prefix": "kbd",
+		"prefix": "best-kbd",
 		"body": ["<kbd>Keyboard Input</kbd>"],
 		"description": "Keyboard input."
 	},
 	"Sample Output": {
-		"prefix": "samp",
+		"prefix": "best-samp",
 		"body": ["<samp>Sample Output</samp>"],
 		"description": "Sample output."
 	},
 	"Variable": {
-		"prefix": "var",
+		"prefix": "best-var",
 		"body": ["<var>Variable</var>"],
 		"description": "A variable."
 	},
 	"Deleted Text": {
-		"prefix": "del",
+		"prefix": "best-del",
 		"body": ["<del>Deleted Text</del>"],
 		"description": "Deleted text."
 	},
 	"Inserted Text": {
-		"prefix": "ins",
+		"prefix": "best-ins",
 		"body": ["<ins>Inserted Text</ins>"],
 		"description": "Inserted text."
 	},
 	"Bold": {
-		"prefix": "b",
+		"prefix": "best-b",
 		"body": ["<b>Bold</b>"],
 		"description": "Bold text."
 	},
 	"Italic": {
-		"prefix": "i",
+		"prefix": "best-i",
 		"body": ["<i>Italic</i>"],
 		"description": "Italic text."
 	},
 	"Underline": {
-		"prefix": "u",
+		"prefix": "best-u",
 		"body": ["<u>Underline</u>"],
 		"description": "Underlined text."
 	},
 	"HTML Small": {
-		"prefix": "small",
+		"prefix": "best-small",
 		"body": ["<small>Small</small>"],
 		"description": "Small text."
 	},
 	"Subscript": {
-		"prefix": "sub",
+		"prefix": "best-sub",
 		"body": ["<sub>Subscript</sub>"],
 		"description": "Subscript text."
 	},
 	"Superscript": {
-		"prefix": "sup",
+		"prefix": "best-sup",
 		"body": ["<sup>Superscript</sup>"],
 		"description": "Superscript text."
 	},
 	"Marked Text": {
-		"prefix": "mark",
+		"prefix": "best-mark",
 		"body": ["<mark>Marked Text</mark>"],
 		"description": "Marked text."
 	},
 	"HTML Code": {
-		"prefix": "code",
+		"prefix": "best-code",
 		"body": ["<code>Code</code>"],
 		"description": "Code."
 	},
 	"Inline Quotation": {
-		"prefix": "q",
+		"prefix": "best-q",
 		"body": ["<q>Inline Quotation</q>"],
 		"description": "Inline quotation."
 	},
 	"Line Break": {
-		"prefix": "br",
+		"prefix": "best-br",
 		"body": ["<br>"],
 		"description": "A line break."
 	},
 	"Non-Breaking Space": {
-		"prefix": "nbsp",
+		"prefix": "best-nbsp",
 		"body": ["&nbsp;"],
 		"description": "A non-breaking space."
 	},
 	"Image": {
-		"prefix": "img",
+		"prefix": "best-img",
 		"body": ["<img src='image.jpg' alt='Image'>"],
 		"description": "An image."
 	},
 	"Figure": {
-		"prefix": "figure",
+		"prefix": "best-figure",
 		"body": [
 			"<figure>",
 			"  <img src='image.jpg' alt='Image'>",
@@ -646,12 +640,12 @@
 		"description": "A figure."
 	},
 	"Figure Caption": {
-		"prefix": "figcaption",
+		"prefix": "best-figcaption",
 		"body": ["<figcaption>Figure Caption</figcaption>"],
 		"description": "A figure caption."
 	},
 	"Audio": {
-		"prefix": "audio",
+		"prefix": "best-audio",
 		"body": [
 			"<audio controls>",
 			"  <source src='audio.mp3' type='audio/mpeg'>",
@@ -662,7 +656,7 @@
 		"description": "An audio element."
 	},
 	"Video": {
-		"prefix": "video",
+		"prefix": "best-video",
 		"body": [
 			"<video controls>",
 			"  <source src='video.mp4' type='video/mp4'>",
@@ -673,24 +667,24 @@
 		"description": "A video element."
 	},
 	"Source": {
-		"prefix": "source",
+		"prefix": "best-source",
 		"body": ["<source src='video.mp4' type='video/mp4'>"],
 		"description": "A source element."
 	},
 	"Track": {
-		"prefix": "track",
+		"prefix": "best-track",
 		"body": [
 			"<track src='subtitles_en.vtt' kind='subtitles' srclang='en' label='English'>"
 		],
 		"description": "A track element."
 	},
 	"Embed": {
-		"prefix": "embed",
+		"prefix": "best-embed",
 		"body": ["<embed src='embed.swf' type='application/x-shockwave-flash'>"],
 		"description": "An embed element."
 	},
 	"Object": {
-		"prefix": "object",
+		"prefix": "best-object",
 		"body": [
 			"<object data='object.svg' type='image/svg+xml'>",
 			"  <param name='src' value='object.svg'>",
@@ -701,17 +695,17 @@
 		"description": "An object element."
 	},
 	"Parameter": {
-		"prefix": "param",
+		"prefix": "best-param",
 		"body": ["<param name='src' value='object.svg'>"],
 		"description": "A parameter."
 	},
 	"Canvas": {
-		"prefix": "canvas",
+		"prefix": "best-canvas",
 		"body": ["<canvas id='myCanvas' width='200' height='100'></canvas>"],
 		"description": "A canvas element."
 	},
 	"Map": {
-		"prefix": "map",
+		"prefix": "best-map",
 		"body": [
 			"<map name='planetmap'>",
 			"  <area shape='rect' coords='0,0,82,126' alt='Sun' href='sun.htm'>",
@@ -722,14 +716,14 @@
 		"description": "A map element."
 	},
 	"Area": {
-		"prefix": "area",
+		"prefix": "best-area",
 		"body": [
 			"<area shape='rect' coords='0,0,82,126' alt='Sun' href='sun.htm'>"
 		],
 		"description": "An area element."
 	},
 	"Table": {
-		"prefix": "table",
+		"prefix": "best-table",
 		"body": [
 			"<table>",
 			"  <caption>Table Caption</caption>",
@@ -764,12 +758,12 @@
 		"description": "A table."
 	},
 	"Table Caption": {
-		"prefix": "caption",
+		"prefix": "best-caption",
 		"body": ["<caption>Table Caption</caption>"],
 		"description": "A table caption."
 	},
 	"Table Head": {
-		"prefix": "thead",
+		"prefix": "best-thead",
 		"body": [
 			"<thead>",
 			"  <tr>",
@@ -782,7 +776,7 @@
 		"description": "A table head."
 	},
 	"Table Foot": {
-		"prefix": "tfoot",
+		"prefix": "best-tfoot",
 		"body": [
 			"<tfoot>",
 			"  <tr>",
@@ -795,7 +789,7 @@
 		"description": "A table foot."
 	},
 	"Table Body": {
-		"prefix": "tbody",
+		"prefix": "best-tbody",
 		"body": [
 			"<tbody>",
 			"  <tr>",
@@ -813,7 +807,7 @@
 		"description": "A table body."
 	},
 	"Table Row": {
-		"prefix": "tr",
+		"prefix": "best-tr",
 		"body": [
 			"<tr>",
 			"  <td>Cell 1</td>",
@@ -824,17 +818,17 @@
 		"description": "A table row."
 	},
 	"Table Header": {
-		"prefix": "th",
+		"prefix": "best-th",
 		"body": ["<th>Header 1</th>"],
 		"description": "A table header."
 	},
 	"Table Data": {
-		"prefix": "td",
+		"prefix": "best-td",
 		"body": ["<td>Cell 1</td>"],
 		"description": "A table data cell."
 	},
 	"Form": {
-		"prefix": "form",
+		"prefix": "best-form",
 		"body": [
 			"<form action='action_page.php'>",
 			"  First name:<br>",
@@ -849,19 +843,19 @@
 		"description": "A form."
 	},
 	"Form Input": {
-		"prefix": "input",
+		"prefix": "best-input",
 		"body": ["<input type='text' name='firstname' value='Mickey'>"],
 		"description": "A form input."
 	},
 	"Form Textarea": {
-		"prefix": "textarea",
+		"prefix": "best-textarea",
 		"body": [
 			"<textarea name='message' rows='10' cols='30'>The cat was playing in the garden.</textarea>"
 		],
 		"description": "A form textarea."
 	},
 	"Form Select": {
-		"prefix": "select",
+		"prefix": "best-select",
 		"body": [
 			"<select name='cars'>",
 			"  <option value='volvo'>Volvo</option>",
@@ -873,39 +867,39 @@
 		"description": "A form select."
 	},
 	"Form Option": {
-		"prefix": "option",
+		"prefix": "best-option",
 		"body": ["<option value='volvo'>Volvo</option>"],
 		"description": "A form option."
 	},
 	"Form Button": {
-		"prefix": "button",
+		"prefix": "best-button",
 		"body": [
 			"<button type='button' onclick='alert('Hello world!')'>Click Me!</button>"
 		],
 		"description": "A form button."
 	},
 	"div": {
-		"prefix": "div",
+		"prefix": "best-div",
 		"body": ["<div></div>"],
 		"description": "A div."
 	},
 	"span": {
-		"prefix": "span",
+		"prefix": "best-span",
 		"body": ["<span></span>"],
 		"description": "A span."
 	},
 	"center": {
-		"prefix": "center",
+		"prefix": "best-center",
 		"body": ["<center></center>"],
 		"description": "Center content."
 	},
 	"mark": {
-		"prefix": "mark",
+		"prefix": "best-mark",
 		"body": ["<mark>$1</mark>"],
 		"description": "Marked text."
 	},
 	"head": {
-		"prefix": "head",
+		"prefix": "best-head",
 		"body": [
 			"<head>",
 			"  <title>$1</title>",
@@ -919,27 +913,27 @@
 		"description": "HTML head."
 	},
 	"body": {
-		"prefix": "body",
+		"prefix": "best-body",
 		"body": ["<body>", "  $1", "</body>"],
 		"description": "HTML body."
 	},
 	"title": {
-		"prefix": "title",
+		"prefix": "best-title",
 		"body": ["<title>$1</title>"],
 		"description": "HTML title."
 	},
 	"meta": {
-		"prefix": "meta",
+		"prefix": "best-meta",
 		"body": ["<meta charset='UTF-8'>"],
 		"description": "HTML meta."
 	},
 	"link": {
-		"prefix": "link",
+		"prefix": "best-link",
 		"body": ["<link rel='stylesheet' type='text/css' href='style.css'>"],
 		"description": "HTML link."
 	},
 	"script": {
-		"prefix": "script",
+		"prefix": "best-script",
 		"body": ["<script>", "  $1", "</script>"],
 		"description": "HTML script."
 	}
