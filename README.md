@@ -37,7 +37,7 @@ So, whether you're a seasoned HTML pro or a newbie just starting out, the "Best 
 
 | Component | Description | Requirements |
 
-| :-----------------------------: | ------------------------------------------------------------------------------------------------ | :-----------------------------: |
+| :-: | --- | :-: |
 
 | `htmlpage` | Start off your web development with a professional-grade HTML template. | None |
 
