@@ -1,20 +1,25 @@
 {
-  "name": "basicsnippets",
-  "displayName": "Basic Snippets",
-  "description": "A collection of different html snippets",
-  "version": "0.0.1",
-  "engines": {
-    "vscode": "^1.75.0"
-  },
-  "categories": [
-    "Snippets"
-  ],
-  "contributes": {
-    "snippets": [
-      {
-        "language": "html",
-        "path": "./snippets/snippets.code-snippets"
-      }
-    ]
-  }
+	"name": "basicsnippets",
+	"displayName": "Basic Snippets",
+	"description": "A collection of different html snippets",
+	"version": "0.0.1",
+	"engines": {
+		"vscode": "^1.75.0"
+	},
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/PxPerfectMike/Best-HTML-Snippets.git"
+	},
+	"icon": "icon.png",
+	"categories": [
+		"Snippets"
+	],
+	"contributes": {
+		"snippets": [
+			{
+				"language": "html",
+				"path": "./snippets/snippets.code-snippets"
+			}
+		]
+	}
 }
