@@ -1,5 +1,6 @@
 {
 	"name": "basicsnippets",
+  "publisher": "Michael Baker",
 	"displayName": "Basic Snippets",
 	"description": "A collection of different html snippets",
 	"version": "0.0.1",
